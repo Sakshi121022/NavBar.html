@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        .nav {
+            display: flex;
+            height: 10vh;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            color: black;
+
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+
+        }
+
+        .nav ul li {
+            list-style: circle;
+            padding-left: 1rem;
+            font-weight: bold;
+            font-size: larger;
+            font-family: sans-serif;
+            transition: all ease .5s;
+        }
+        .nav ul li:hover{
+            background-color: blue;
+            color: red;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li>Log in</li>
+            <li>Log out</li>
+            <li>Sign in </li>
+            <li>Sign out</li>
+        </ul>
+    </nav>
+</body>
+
+</html>
